@@ -44,3 +44,5 @@ router.get('/topic/create',topicCtrl.showTopic)
 	.get('/topic/:topicID',topicCtrl.showEdit)
 	.post('/topic/:topicID',topicCtrl.hanleEdit)
 	.post('/topic/:topicID/delete',topicCtrl.hanleDel)
+
+// 分类
